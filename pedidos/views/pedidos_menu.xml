@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="pedidos_menu_root" name="Pedidos" />
+    <menuitem id="pedidos_producto_menu" name="Productos" parent="pedidos_menu_root"
+        action="pedidos_producto_action" />
+    <menuitem id="pedidos_tipo_producto_menu" name="Tipos de producto" parent="pedidos_menu_root"
+        action="pedidos_tipo_producto_action" />
+</odoo>

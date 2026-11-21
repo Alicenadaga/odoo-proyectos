@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="producto_view_list" model="ir.ui.view">
+        <field name="name">producto.list</field>
+        <field name="model">pedidos.producto</field>
+        <field name="arch" type="xml">
+            <tree string="Producto">
+                <field name="name" />
+                <field name="precio" />
+                <field name="tipo_id" />
+            </tree>
+        </field>
+    </record>
+    <record id="producto_view_form" model="ir.ui.view">
+        <field name="name">producto.form</field>
+        <field name="model">pedidos.producto</field>
+        <field name="arch" type="xml">
+            <form string="Producto">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="precio" />
+                        <field name="tipo_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="pedidos_producto_action" model="ir.actions.act_window">
+        <field name="name">Productos</field>
+        <field name="res_model">pedidos.producto</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

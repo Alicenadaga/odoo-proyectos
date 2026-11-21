@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pedidos_producto,access_pedidos_producto,model_pedidos_producto,base.group_user,1,1,1,1
+access_pedidos_tipo_producto,access_pedidos_tipo_producto,model_pedidos_tipo_producto,base.group_user,1,1,1,1
+access_pedidos_pedido,access_pedidos_pedido,model_pedidos_pedido,base.group_user,1,1,1,1
+access_pedidos_linea_pedido,access_pedidos_linea_pedido,model_pedidos_linea_pedido,base.group_user,1,1,1,1
